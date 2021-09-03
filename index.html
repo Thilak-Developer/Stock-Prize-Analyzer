@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Stock Price Analyzer</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <!-- Metadata -->
+    <meta name="description" content="Stock Price Analyzer">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <header>
+        <h1>Stock Price Analyzer</h1>
+    </header>
+    <main>
+        <p><b>Stock Price When You Bought: &#8377;&nbsp;&nbsp;&nbsp;<input type="decimal" id="input"></input><br><br>
+                <b> Quantity of shares bought: &nbsp;&nbsp;&nbsp;<input type="decimal" id="input2"></input><br><br>
+                    <b> Today's stock price for that stock: &#8377;&nbsp;&nbsp;&nbsp;<input type="decimal" id="input3"></input>
+                        <br><br><button class="submit" id="submit">Submit</button></p>
+        <table>
+            <tr>
+                <th>Profit Amount</th>
+                <th> Profit Percentage</th>
+            </tr>
+            <tr>
+                <td>
+                    <p id="Id0"></p>
+                </td>
+                <td>
+                    <p id="Id1"></p>
+                </td>
+            </tr>
+            <tr>
+
+                <th>Loss Amount</th>
+                <th>Loss Percentage</th>
+            </tr>
+            <tr>
+                <td>
+                    <p id="Id2"></p>
+                </td>
+                <td>
+                    <p id="Id3"></p>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p id="remaining"></p>
+        <p><a target="_blank" href="">Thilak</a></p>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
